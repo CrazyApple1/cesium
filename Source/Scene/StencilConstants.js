@@ -33,7 +33,7 @@ define([
                 zFail : StencilOperation.KEEP,
                 zPass : StencilOperation.REPLACE
             },
-            reference : ~0,
+            reference : StencilConstants.CESIUM_3D_TILE_MASK,
             mask : StencilConstants.CESIUM_3D_TILE_MASK
         };
     };
